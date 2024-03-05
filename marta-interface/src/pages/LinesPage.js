@@ -104,7 +104,7 @@ export default function LinesPage( { color } ) {
             {stationLoading ? (
               <div class="pl-2 pt-4 bg-black w-80 h-full text-white">Loading...</div>
             ): (
-              <NavBar color={currColor} data={stationData} setStation={setStation} />
+              <NavBar color={currColor} data={stationData} setStation={setStation} currStation={station} />
             )}
           </div>
           <div class="w-full">
